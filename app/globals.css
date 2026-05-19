@@ -1,0 +1,140 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* ShoeStore palette: warm cream, deep ink, vibrant orange accent */
+  --background: oklch(0.97 0.01 80);
+  --foreground: oklch(0.18 0.01 60);
+  --card: oklch(0.99 0.005 80);
+  --card-foreground: oklch(0.18 0.01 60);
+  --popover: oklch(0.99 0.005 80);
+  --popover-foreground: oklch(0.18 0.01 60);
+  --primary: oklch(0.18 0.01 60);
+  --primary-foreground: oklch(0.97 0.01 80);
+  --secondary: oklch(0.92 0.015 75);
+  --secondary-foreground: oklch(0.18 0.01 60);
+  --muted: oklch(0.93 0.01 80);
+  --muted-foreground: oklch(0.45 0.01 60);
+  --accent: oklch(0.62 0.22 35);
+  --accent-foreground: oklch(0.99 0 0);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.88 0.01 75);
+  --input: oklch(0.92 0.01 75);
+  --ring: oklch(0.62 0.22 35);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.97 0.01 80);
+  --sidebar-foreground: oklch(0.18 0.01 60);
+  --sidebar-primary: oklch(0.18 0.01 60);
+  --sidebar-primary-foreground: oklch(0.97 0.01 80);
+  --sidebar-accent: oklch(0.92 0.015 75);
+  --sidebar-accent-foreground: oklch(0.18 0.01 60);
+  --sidebar-border: oklch(0.88 0.01 75);
+  --sidebar-ring: oklch(0.62 0.22 35);
+}
+
+.dark {
+  --background: oklch(0.15 0.01 60);
+  --foreground: oklch(0.97 0.01 80);
+  --card: oklch(0.18 0.01 60);
+  --card-foreground: oklch(0.97 0.01 80);
+  --popover: oklch(0.18 0.01 60);
+  --popover-foreground: oklch(0.97 0.01 80);
+  --primary: oklch(0.97 0.01 80);
+  --primary-foreground: oklch(0.18 0.01 60);
+  --secondary: oklch(0.25 0.01 60);
+  --secondary-foreground: oklch(0.97 0.01 80);
+  --muted: oklch(0.25 0.01 60);
+  --muted-foreground: oklch(0.7 0.01 60);
+  --accent: oklch(0.7 0.18 45);
+  --accent-foreground: oklch(0.99 0 0);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.3 0.01 60);
+  --input: oklch(0.3 0.01 60);
+  --ring: oklch(0.7 0.18 45);
+}
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist', 'Geist Fallback';
+  --font-serif: 'Geist', 'Geist Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv11";
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0) rotate(-8deg); }
+  50% { transform: translateY(-20px) rotate(-4deg); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Shimmer */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, oklch(0.95 0.02 80) 50%, transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+/* Number counter */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--background); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }
