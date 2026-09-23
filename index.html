@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aneksyy // 喰種 — security researcher</title>
+<meta name="description" content="aneksyy — security researcher, software developer, bug bounty hunter.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=JetBrains+Mono:ital,wght@0,400;0,700;1,400&family=Archivo+Black&family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26' fill='%23ff5f8f'>喰</text></svg>">
+</head>
+<body>
+
+<!-- ambient layers (лёгкие) -->
+<div class="crt-overlay" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="edit-bg" id="editBg" aria-hidden="true">
+  <video id="heroEdit" class="hero-edit" src="assets/edit.mp4" autoplay loop muted playsinline preload="auto"></video>
+  <div class="hero-edit-shade"></div>
+</div>
+
+<main id="world">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <div class="jp-vertical jp-1" aria-hidden="true">オフェンシブ・セキュリティ</div>
+    <div class="jp-vertical jp-2" aria-hidden="true">バグバウンティ・ハンター</div>
+
+    <div class="hero-meta">
+      <div class="meta-line">// security researcher · 東京 · 20区</div>
+    </div>
+
+    <h1 class="mega glitch" id="heroName" data-text="ANEKSYY">ANEKSYY</h1>
+    <div class="hero-sub"><span id="typedLine" class="typed"></span><span class="caret blink">▮</span></div>
+
+    <div class="hero-tags">
+      <span>SECURITY&nbsp;RESEARCHER</span><span>SOFTWARE&nbsp;DEVELOPER</span><span>BUG&nbsp;BOUNTY&nbsp;HUNTER</span>
+    </div>
+
+    <div class="audio-panel">
+      <button id="audioToggle" class="audio-btn">♪ EDIT://ON</button>
+      <input type="range" id="volSlider" min="0" max="100" value="10" aria-label="громкость">
+    </div>
+  </section>
+
+  <!-- ================= ОБО МНЕ ================= -->
+  <section class="section" id="about">
+    <header class="sec-head reveal">
+      <h2 class="glitch" data-text="ДОСЬЕ // DOSSIER">ДОСЬЕ // DOSSIER</h2>
+      <div class="sec-sub">subject: aneksyy</div>
+    </header>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p class="big-line">нахожу уязвимости, которые <span class="red">другие пропускают</span>.</p>
+        <p>Security researcher и разработчик, 19 y.o. Живу на пересечении offensive security и разработки: багбаунти на реальных production-системах, скрипты на Python, низкий уровень на C++/C#. Понимаю системы от байтов до веб-приложений — без сканирования по чеклисту.</p>
+        <p class="motto">"Breaking systems to make them stronger."</p>
+      </div>
+      <div class="about-term">
+        <div class="at-bar"><i></i><i></i><i></i> aneksyy@fsociety:~</div>
+        <pre id="aboutTerm" class="at-body"></pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= СКИЛЛЫ ================= -->
+  <section class="section" id="skills">
+    <header class="sec-head reveal">
+      <h2 class="glitch" data-text="АРСЕНАЛ // ARSENAL">АРСЕНАЛ // ARSENAL</h2>
+      <div class="sec-sub">weapons of choice</div>
+    </header>
+    <div id="skillList" class="skills reveal"></div>
+  </section>
+
+  <!-- ================= ВЕКТОРЫ ================= -->
+  <section class="section" id="vectors">
+    <header class="sec-head reveal">
+      <h2 class="glitch" data-text="ВЕКТОРЫ // VECTORS">ВЕКТОРЫ // VECTORS</h2>
+      <div class="sec-sub">what I hunt</div>
+    </header>
+    <div id="warzoneTags" class="tags reveal"></div>
+  </section>
+
+  <!-- ================= ПРОЕКТЫ ================= -->
+  <section class="section" id="projects">
+    <header class="sec-head reveal">
+      <h2 class="glitch" data-text="ПРОЕКТЫ // BUILDS">ПРОЕКТЫ // BUILDS</h2>
+      <div class="sec-sub">github.com/filitlite</div>
+    </header>
+    <div id="projGrid" class="proj-grid reveal"></div>
+  </section>
+
+  <!-- ================= КОНТАКТЫ ================= -->
+  <section class="section contacts" id="contacts">
+    <header class="sec-head reveal">
+      <h2 class="glitch" data-text="КОНТАКТ // CONTACT">КОНТАКТ // CONTACT</h2>
+      <div class="sec-sub">открыт к коллаборациям, приватным программам и интересным проектам</div>
+    </header>
+    <div class="contact-grid reveal">
+      <a class="contact-card" href="https://t.me/aneksyy" target="_blank" rel="noopener">
+        <div class="cc-ico">✝</div><div class="cc-name">TELEGRAM</div><div class="cc-val">@aneksyy</div>
+      </a>
+      <a class="contact-card" href="https://github.com/filitlite" target="_blank" rel="noopener">
+        <div class="cc-ico">⌥</div><div class="cc-name">GITHUB</div><div class="cc-val">github.com/filitlite</div>
+      </a>
+      <a class="contact-card" href="https://standoff365.com/profile/aneksyy/" target="_blank" rel="noopener">
+        <div class="cc-ico">✖</div><div class="cc-name">STANDOFF365</div><div class="cc-val">/profile/aneksyy</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <pre class="foot-echo">echo "designed &amp; built by <span class="red">aneksyy</span>"</pre>
+      <div class="foot-hint">喰 — 1000 − 7 …</div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="assets/js/matrix.js"></script>
+<script src="assets/js/phonk.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
