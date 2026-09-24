@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c93a68,100:ff5f8f&height=200&section=header&text=aneksyy&fontSize=75&fontColor=0b0810&animation=fadeIn&fontAlignY=35&desc=Security%20Researcher%20%7C%20Software%20Developer%20%7C%20Bug%20Bounty%20Hunter&descAlignY=55&descSize=17&descColor=0b0810"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=0:c93a68,100:ff5f8f&height=190&section=header&text=aneksyy&fontSize=70&fontColor=ffffff&animation=blinking&fontAlignY=32&stroke=0b0810&strokeWidth=1&desc=%E5%96%B0%E7%A8%AE%20%20Security%20Researcher%20%E2%80%A2%20Developer%20%E2%80%A2%20Bug%20Bounty%20Hunter&descAlignY=62&descSize=16&descColor=ffd6e3"/>
 
 <a href="https://filitlite.github.io/aneksyy/">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=FF5F8F&center=true&vCenter=true&repeat=true&width=720&height=50&lines=%E2%98%92+Bug+Bounty+Hunter+%7C+Standoff+365;%F0%9F%96%A5%EF%B8%8F+Pentester+%7C+Developer;%F0%9F%92%80+Breaking+systems+to+make+them+stronger" />
@@ -20,6 +20,8 @@
 
 ## `$ whoami`
 
+<div align="center">
+
 ```python
 class SecurityResearcher:
     def __init__(self):
@@ -34,6 +36,8 @@ class SecurityResearcher:
     def motto(self):
         return "Breaking systems to make them stronger"
 ```
+
+</div>
 
 <br/>
 
@@ -76,8 +80,8 @@ class SecurityResearcher:
 ## `$ neofetch --github`
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=filitlite&show_icons=true&bg_color=1b1426&border_color=ff5f8f&icon_color=ff5f8f&title_color=ff5f8f&text_color=e6dde8&hide_border=false&ring_color=ff5f8f" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filitlite&layout=compact&bg_color=1b1426&border_color=ff5f8f&title_color=ff5f8f&text_color=e6dde8&hide_border=false&langs_count=8" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=filitlite&show_icons=true&bg_color=1b1426&border_color=ff5f8f&icon_color=ff5f8f&title_color=ff5f8f&text_color=e6dde8&hide_border=false&ring_color=ff5f8f" />
+  <img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=filitlite&layout=compact&bg_color=1b1426&border_color=ff5f8f&title_color=ff5f8f&text_color=e6dde8&hide_border=false&langs_count=8" />
 </div>
 
 <br/>
@@ -91,7 +95,9 @@ class SecurityResearcher:
 ## `$ history | tail -30`
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=filitlite&bg_color=1b1426&color=ff5f8f&line=ff5f8f&point=e6dde8&area=true&area_color=ff5f8f20&hide_border=false&custom_title=Contribution%20Graph" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=filitlite&theme=radical" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=filitlite&theme=radical" />
+  <img width="100%" src="https://ghchart.rshah.org/ff5f8f/filitlite" alt="contribution chart"/>
 </div>
 
 <br/>
