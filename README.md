@@ -1,6 +1,8 @@
 <div align="center">
 
-<img width="880" src="https://raw.githubusercontent.com/filitlite/aneksyy/main/assets/scene.svg" alt="aneksyy // 喰種 — site-style scene"/>
+<a href="https://filitlite.github.io/aneksyy/">
+  <img width="880" src="https://raw.githubusercontent.com/filitlite/aneksyy/main/assets/scene.svg" alt="aneksyy // 喰種 — site-style scene"/>
+</a>
 
 [![Website](https://img.shields.io/badge/site-filitlite.github.io%2Faneksyy-1b1426?style=for-the-badge&logo=googlechrome&logoColor=ff5f8f)](https://filitlite.github.io/aneksyy/)
 &nbsp;&nbsp;
