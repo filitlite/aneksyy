@@ -1,75 +1,121 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff5f8f,100:c93a68&height=180&section=header&text=aneksyy&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Security%20Researcher%20%7C%20Software%20Developer%20%7C%20Bug%20Bounty%20Hunter&descSize=16&descAlignY=68" width="100%"/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:c93a68,100:ff5f8f&height=200&section=header&text=aneksyy&fontSize=75&fontColor=0b0810&animation=fadeIn&fontAlignY=35&desc=Security%20Researcher%20%7C%20Software%20Developer%20%7C%20Bug%20Bounty%20Hunter&descAlignY=55&descSize=17&descColor=0b0810"/>
+
+<a href="https://filitlite.github.io/aneksyy/">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=FF5F8F&center=true&vCenter=true&repeat=true&width=720&height=50&lines=%E2%98%92+Bug+Bounty+Hunter+%7C+Standoff+365;%F0%9F%96%A5%EF%B8%8F+Pentester+%7C+Developer;%F0%9F%92%80+Breaking+systems+to+make+them+stronger" />
+</a>
+
+<br/>
+
+<img src="https://img.shields.io/github/stars/filitlite?affiliations=OWNER&style=for-the-badge&color=1b1426&logo=github&logoColor=ff5f8f&label=Total%20Stars"/>
+&nbsp;
+<img src="https://img.shields.io/github/followers/filitlite?style=for-the-badge&color=1b1426&logo=github&logoColor=ff5f8f&label=Followers"/>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=filitlite&style=for-the-badge&color=1b1426&label=Profile+Views"/>
+
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2800&pause=1200&color=FF5F8F&center=true&vCenter=true&multiline=true&repeat=true&lines=%D0%BD%D0%B0%D1%85%D0%BE%D0%B6%D1%83+%D1%83%D1%8F%D0%B7%D0%B2%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%2C+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5+%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5+%D0%BF%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA%D0%B0%D1%8E%D1%82.;Breaking+systems+to+make+them+stronger.;eat+or+be+eaten.+%E5%96%B0" alt="typing" />
-</div>
+<br/>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/bugs-found-ff5f8f?style=flat-square&labelColor=1b1426" />
-  <img src="https://komarev.com/ghpvc/?username=filitlite&color=ff5f8f&style=flat-square&label=views" />
-  <img src="https://img.shields.io/badge/alignment-chaotic%20neutral-c93a68?style=flat-square&labelColor=1b1426" />
-</div>
-
----
-
-### $ whoami
+## `$ whoami`
 
 ```python
-class aneksyy:
-    handle    = "aneksyy"
-    self.age  = 19
-    roles     = ["Security Researcher", "Software Developer", "Bug Bounty Hunter"]
-    platform  = "Standoff 365 Bug Bounty"
-    focus     = "Offensive Security"
-    alignment = "chaotic neutral"
-    site      = "https://aneksyy.github.io"
+class SecurityResearcher:
+    def __init__(self):
+        self.handle    = "aneksyy"
+        self.age       = 19
+        self.role      = ["Security Researcher", "Software Developer", "Bug Bounty Hunter"]
+        self.platform  = "Standoff 365 Bug Bounty"
+        self.focus     = "Offensive Security"
+        self.alignment = "chaotic neutral"
+        self.website   = "https://filitlite.github.io/aneksyy/"
+
+    def motto(self):
+        return "Breaking systems to make them stronger"
 ```
 
-### $ cat skills.conf
+<br/>
 
-**languages:**
-![Python](https://img.shields.io/badge/Python-ff5f8f?style=flat-square&logo=python&logoColor=1b1426)
-![C++](https://img.shields.io/badge/C%2B%2B-c93a68?style=flat-square&logo=cplusplus&logoColor=1b1426)
-![C#](https://img.shields.io/badge/C%23-ff5f8f?style=flat-square&logo=csharp&logoColor=1b1426)
-![JavaScript](https://img.shields.io/badge/JavaScript-c93a68?style=flat-square&logo=javascript&logoColor=1b1426)
-![HTML5](https://img.shields.io/badge/HTML5-ff5f8f?style=flat-square&logo=html5&logoColor=1b1426)
-![CSS3](https://img.shields.io/badge/CSS3-c93a68?style=flat-square&logo=css3&logoColor=1b1426)
-
-**security & tools:**
-![Burp Suite](https://img.shields.io/badge/Burp%20Suite-ff5f8f?style=flat-square&labelColor=1b1426)
-![Docker](https://img.shields.io/badge/Docker-c93a68?style=flat-square&logo=docker&logoColor=1b1426)
-![Git](https://img.shields.io/badge/Git-ff5f8f?style=flat-square&logo=git&logoColor=1b1426)
-![Linux](https://img.shields.io/badge/Linux-c93a68?style=flat-square&logo=linux&logoColor=1b1426)
-![Bash](https://img.shields.io/badge/Bash-ff5f8f?style=flat-square&logo=gnu-bash&logoColor=1b1426)
-
-**expertise:**
-![OWASP](https://img.shields.io/badge/OWASP%20Top%2010-ff5f8f?style=flat-square&labelColor=1b1426)
-![OSINT](https://img.shields.io/badge/OSINT%20%26%20Recon-c93a68?style=flat-square&labelColor=1b1426)
-![XSS](https://img.shields.io/badge/XSS-ff5f8f?style=flat-square&labelColor=1b1426)
-![SQLi](https://img.shields.io/badge/SQLi-c93a68?style=flat-square&labelColor=1b1426)
-![SSRF](https://img.shields.io/badge/SSRF-ff5f8f?style=flat-square&labelColor=1b1426)
-![IDOR](https://img.shields.io/badge/IDOR-c93a68?style=flat-square&labelColor=1b1426)
-![Auth Bypass](https://img.shields.io/badge/Auth%20Bypass-ff5f8f?style=flat-square&labelColor=1b1426)
-
-### $ neofetch --github
+## `$ cat skills.conf`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=filitlite&show_icons=true&theme=radical&hide_border=true&bg_color=1b1426&title_color=ff5f8f&icon_color=ff5f8f&text_color=e6dde8" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=filitlite&layout=compact&theme=radical&hide_border=true&bg_color=1b1426&title_color=ff5f8f&text_color=e6dde8" height="150"/>
+
+#### `// Languages`
+
+![Python](https://img.shields.io/badge/Python-1b1426?style=for-the-badge&logo=python&logoColor=ff5f8f)
+![C++](https://img.shields.io/badge/C++-1b1426?style=for-the-badge&logo=cplusplus&logoColor=ff5f8f)
+![C#](https://img.shields.io/badge/C%23-1b1426?style=for-the-badge&logo=csharp&logoColor=ff5f8f)
+![JavaScript](https://img.shields.io/badge/JavaScript-1b1426?style=for-the-badge&logo=javascript&logoColor=ff5f8f)
+![HTML5](https://img.shields.io/badge/HTML5-1b1426?style=for-the-badge&logo=html5&logoColor=ff5f8f)
+![CSS3](https://img.shields.io/badge/CSS3-1b1426?style=for-the-badge&logo=css3&logoColor=ff5f8f)
+
+#### `// Security & Tools`
+
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-1b1426?style=for-the-badge&logo=portswigger&logoColor=ff5f8f)
+![Docker](https://img.shields.io/badge/Docker-1b1426?style=for-the-badge&logo=docker&logoColor=ff5f8f)
+![Git](https://img.shields.io/badge/Git-1b1426?style=for-the-badge&logo=git&logoColor=ff5f8f)
+![Linux](https://img.shields.io/badge/Linux-1b1426?style=for-the-badge&logo=linux&logoColor=ff5f8f)
+![Bash](https://img.shields.io/badge/Bash-1b1426?style=for-the-badge&logo=gnubash&logoColor=ff5f8f)
+
+#### `// Areas of Expertise`
+
+![Web App Security](https://img.shields.io/badge/Web_App_Security-1b1426?style=flat-square&logoColor=ff5f8f)
+![API Security](https://img.shields.io/badge/API_Security-1b1426?style=flat-square&logoColor=ff5f8f)
+![OWASP Top 10](https://img.shields.io/badge/OWASP_Top_10-1b1426?style=flat-square&logoColor=ff5f8f)
+![OSINT](https://img.shields.io/badge/OSINT_&_Recon-1b1426?style=flat-square&logoColor=ff5f8f)
+![XSS](https://img.shields.io/badge/XSS-1b1426?style=flat-square)
+![SQLi](https://img.shields.io/badge/SQLi-1b1426?style=flat-square)
+![SSRF](https://img.shields.io/badge/SSRF-1b1426?style=flat-square)
+![IDOR](https://img.shields.io/badge/IDOR-1b1426?style=flat-square)
+
 </div>
 
-### $ ls ~/contact
+<br/>
 
-| | |
-|---|---|
-| 🌐 **site** | [aneksyy.github.io](https://aneksyy.github.io) |
-| ✝ **telegram** | [@aneksyy](https://t.me/aneksyy) |
-| ✖ **standoff365** | [profile/aneksyy](https://standoff365.com/profile/aneksyy/) |
-
----
+## `$ neofetch --github`
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff5f8f,100:c93a68&height=120&section=footer&text=%E5%96%B0-0-%20%20no%20patch%20for%20human&fontSize=22&fontColor=ffffff&animation=fadeIn" width="100%"/>
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=filitlite&show_icons=true&bg_color=1b1426&border_color=ff5f8f&icon_color=ff5f8f&title_color=ff5f8f&text_color=e6dde8&hide_border=false&ring_color=ff5f8f" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=filitlite&layout=compact&bg_color=1b1426&border_color=ff5f8f&title_color=ff5f8f&text_color=e6dde8&hide_border=false&langs_count=8" />
 </div>
+
+<br/>
+
+<div align="center">
+  <img width="60%" src="https://streak-stats.demolab.com?user=filitlite&theme=dark&background=1b1426&border=ff5f8f&stroke=ff5f8f&ring=ff5f8f&fire=ff5f8f&currStreakLabel=ff5f8f&sideLabels=ff5f8f&currStreakNum=e6dde8&sideNums=e6dde8&dates=5f5370" />
+</div>
+
+<br/>
+
+## `$ history | tail -30`
+
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=filitlite&bg_color=1b1426&color=ff5f8f&line=ff5f8f&point=e6dde8&area=true&area_color=ff5f8f20&hide_border=false&custom_title=Contribution%20Graph" />
+</div>
+
+<br/>
+
+## `$ ls ~/trophy`
+
+<div align="center">
+  <img width="95%" src="https://github-trophies.vercel.app/?username=filitlite&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=10" />
+</div>
+
+<br/>
+
+## `$ ip link show`
+
+<div align="center">
+
+[![Website](https://img.shields.io/badge/aneksyy.github.io-1b1426?style=for-the-badge&logo=googlechrome&logoColor=ff5f8f)](https://filitlite.github.io/aneksyy/)
+&nbsp;
+[![Telegram](https://img.shields.io/badge/@aneksyy-1b1426?style=for-the-badge&logo=telegram&logoColor=ff5f8f)](https://t.me/aneksyy)
+&nbsp;
+[![Standoff 365](https://img.shields.io/badge/Standoff_365_Bug_Bounty-1b1426?style=for-the-badge&logo=bugcrowd&logoColor=ff5f8f)](https://standoff365.com/profile/aneksyy/)
+
+</div>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:ff5f8f,100:c93a68&height=120&section=footer&text=%E5%96%B0-0-%20no%20patch%20for%20human&fontSize=20&fontColor=0b0810&fontAlignY=65"/>
