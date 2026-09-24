@@ -93,32 +93,58 @@
   </circle>
 
   <!-- ================= НИК ================= -->
-  <text x="440" y="430" fill="#ffffff" font-size="72" font-weight="900" text-anchor="middle" letter-spacing="8" font-family="Consolas,'JetBrains Mono',monospace">aneksyy
-    <animate attributeName="opacity" values="1;1;0.25;1;1" keyTimes="0;0.88;0.93;0.97;1" dur="4.4s" repeatCount="indefinite"/>
+  <defs>
+    <linearGradient id="nickGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5f8f">
+        <animate attributeName="stop-color" values="#ff5f8f;#ff9db8;#c93a68;#ff5f8f" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.5" stop-color="#ffd6e3">
+        <animate attributeName="stop-color" values="#ffd6e3;#ffffff;#ff5f8f;#ffd6e3" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#c93a68">
+        <animate attributeName="stop-color" values="#c93a68;#ff5f8f;#ffd6e3;#c93a68" dur="5s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <filter id="nickGlow" x="-40%" y="-60%" width="180%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <text x="440" y="430" fill="url(#nickGrad)" font-size="74" font-weight="900" text-anchor="middle" letter-spacing="7" filter="url(#nickGlow)">aneksyy
+    <animate attributeName="opacity" values="1;1;0.3;1;1" keyTimes="0;0.88;0.93;0.97;1" dur="4.4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 0;-5 0;0 0" keyTimes="0;0.88;0.93;0.97;1" dur="4.4s" repeatCount="indefinite"/>
   </text>
-  <text x="440" y="466" fill="#9a8ca6" font-size="15" text-anchor="middle" letter-spacing="4">security researcher · software developer · bug bounty hunter</text>
+  <text x="440" y="466" fill="#9a8ca6" font-size="14.5" text-anchor="middle" letter-spacing="2">security researcher · software developer · bug bounty hunter</text>
   <line x1="260" y1="492" x2="620" y2="492" stroke="#2e2340" stroke-width="1"/>
 
-  <!-- ================= ИНФА КАК НА САЙТЕ: бейджи-роли ================= -->
-  <g text-anchor="middle" font-size="13" font-weight="700" letter-spacing="2">
-    <rect x="140" y="520" width="176" height="30" rx="4" fill="#161020" stroke="#2e2340"/>
-    <text x="228" y="540" fill="#e6dde8">SECURITY RESEARCHER</text>
-    <rect x="352" y="520" width="176" height="30" rx="4" fill="#161020" stroke="#c93a68"/>
+  <!-- ================= РОЛИ-БЕЙДЖИ (шире, текст внутри) ================= -->
+  <g text-anchor="middle" font-size="12.5" font-weight="700" letter-spacing="1">
+    <rect x="98" y="520" width="210" height="30" rx="4" fill="#161020" stroke="#2e2340"/>
+    <text x="203" y="540" fill="#e6dde8">SECURITY RESEARCHER</text>
+    <rect x="330" y="520" width="220" height="30" rx="4" fill="#161020" stroke="#c93a68"/>
     <text x="440" y="540" fill="#ff5f8f">SOFTWARE DEVELOPER</text>
-    <rect x="564" y="520" width="176" height="30" rx="4" fill="#161020" stroke="#2e2340"/>
-    <text x="652" y="540" fill="#e6dde8">BUG BOUNTY HUNTER</text>
-    <!-- вспышка по центральной -->
-    <rect x="352" y="520" width="176" height="30" rx="4" fill="none" stroke="#ff5f8f">
+    <rect x="572" y="520" width="210" height="30" rx="4" fill="#161020" stroke="#2e2340"/>
+    <text x="677" y="540" fill="#e6dde8">BUG BOUNTY HUNTER</text>
+    <rect x="330" y="520" width="220" height="30" rx="4" fill="none" stroke="#ff5f8f">
       <animate attributeName="opacity" values="0;0.9;0" dur="3s" repeatCount="indefinite"/>
     </rect>
   </g>
 
-  <!-- ================= ДВОЙНАЯ ФРАЗА ================= -->
-  <g font-size="19" text-anchor="middle">
-    <text x="440" y="606" fill="#ffffff">нахожу уязвимости, которые
-      <tspan fill="#ff5f8f">другие пропускают</tspan>.</text>
-    <text x="440" y="636" fill="#ffffff">пишу код, который
-      <tspan fill="#ff5f8f">сложно сломать</tspan>.</text>
+  <!-- ================= МЕНЯЮЩИЕСЯ ФРАЗЫ (одна строка, циклично) ================= -->
+  <g font-size="18" text-anchor="middle">
+    <rect x="200" y="586" width="480" height="44" rx="6" fill="#161020" stroke="#2e2340" opacity="0.8"/>
+    <text x="440" y="614" fill="#ffffff" font-weight="700">нахожу уязвимости, которые
+      <tspan fill="#ff5f8f">другие пропускают</tspan>.
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.42;0.5;0.95;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="440" y="614" fill="#ffffff" font-weight="700" opacity="0">пишу код, который
+      <tspan fill="#ff5f8f">сложно сломать</tspan>.
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.45;0.5;0.92;1" dur="8s" repeatCount="indefinite"/>
+    </text>
+    <text x="440" y="614" fill="#ffffff" font-weight="700" opacity="0">breaking systems
+      <tspan fill="#ff5f8f">to make them stronger</tspan>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.92;0.96;0.99;1" dur="8s" repeatCount="indefinite"/>
+    </text>
   </g>
 
   <!-- ================= СТАТЫ как на сайте ================= -->
