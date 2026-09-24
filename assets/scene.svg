@@ -1,142 +1,148 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="640" viewBox="0 0 860 640" font-family="JetBrains Mono, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="720" viewBox="0 0 880 720" font-family="JetBrains Mono, Consolas, monospace">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#0b0810"/>
-      <stop offset="1" stop-color="#1b1426"/>
+      <stop offset="1" stop-color="#181022"/>
     </linearGradient>
     <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#c93a68"/>
       <stop offset="1" stop-color="#ff5f8f"/>
     </linearGradient>
   </defs>
-  <rect width="860" height="640" fill="url(#bg)"/>
-  <rect width="860" height="3" fill="url(#acc)"/>
-  <rect y="637" width="860" height="3" fill="url(#acc)"/>
 
-  <!-- ======== HEADER ZONE (0..150) ======== -->
-  <text x="40" y="52" fill="#ff5f8f" font-size="14" font-weight="700">喰-0- :: fsociety terminal</text>
-  <text x="40" y="108" fill="#ffffff" font-size="46" font-weight="700">aneKSYY
-    <animate attributeName="opacity" values="1;1;0.35;1;1;1;1" keyTimes="0;0.86;0.9;0.94;0.96;0.98;1" dur="5s" repeatCount="indefinite"/>
+  <rect width="880" height="720" fill="url(#bg)"/>
+  <rect width="880" height="4" fill="url(#acc)"/>
+  <rect y="716" width="880" height="4" fill="url(#acc)"/>
+
+  <!-- ============ ZONE 1: HEADER (0..170) ============ -->
+  <text x="48" y="58" fill="#ff5f8f" font-size="14" font-weight="700">喰-0- :: fsociety terminal</text>
+  <text x="48" y="122" fill="#ffffff" font-size="52" font-weight="700">aneksyy
+    <animate attributeName="opacity" values="1;1;0.3;1;1;1;1" keyTimes="0;0.86;0.9;0.94;0.96;0.98;1" dur="5s" repeatCount="indefinite"/>
   </text>
-  <!-- kagune справа от заголовка -->
-  <g stroke="url(#acc)" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9">
-    <path d="M 300 60 q 26 34 -6 66 q -30 32 8 62 q 32 30 -4 58 q -34 28 6 54" stroke="#ff5f8f">
+  <text x="48" y="152" fill="#9a8ca6" font-size="13.5">offensive security · tokyo 20区 · chaotic neutral</text>
+
+  <!-- kagune справа -->
+  <g stroke="url(#acc)" fill="none" stroke-linecap="round">
+    <path d="M 700 56 q 30 36 -8 70 q -34 34 10 68 q 36 32 -6 62 q -38 30 8 56" stroke="#ff5f8f" stroke-width="3">
       <animate attributeName="d"
-        values="M 300 60 q 26 34 -6 66 q -30 32 8 62 q 32 30 -4 58 q -34 28 6 54;
-                M 300 60 q -24 34 10 66 q 26 32 -10 62 q -28 30 8 54 q 30 28 -8 54;
-                M 300 60 q 26 34 -6 66 q -30 32 8 62 q 32 30 -4 58 q -34 28 6 54"
-        dur="3.2s" repeatCount="indefinite"/>
+        values="M 700 56 q 30 36 -8 70 q -34 34 10 68 q 36 32 -6 62 q -38 30 8 56;
+                M 700 56 q -28 36 12 70 q 30 34 -12 68 q -32 32 10 62 q 34 30 -10 56;
+                M 700 56 q 30 36 -8 70 q -34 34 10 68 q 36 32 -6 62 q -38 30 8 56"
+        dur="3.4s" repeatCount="indefinite"/>
     </path>
-    <path d="M 330 68 q 18 28 -4 56 q -22 28 6 52 q 24 26 -4 48" stroke="#ffd6e3" stroke-width="2" opacity="0.6">
+    <path d="M 760 66 q 20 30 -4 58 q -24 30 8 54 q 26 28 -6 50" stroke="#ffd6e3" stroke-width="2" opacity="0.65">
       <animate attributeName="d"
-        values="M 330 68 q 18 28 -4 56 q -22 28 6 52 q 24 26 -4 48;
-                M 330 68 q -16 28 6 56 q 18 28 -8 52 q -20 26 6 48;
-                M 330 68 q 18 28 -4 56 q -22 28 6 52 q 24 26 -4 48"
-        dur="2.6s" repeatCount="indefinite"/>
+        values="M 760 66 q 20 30 -4 58 q -24 30 8 54 q 26 28 -6 50;
+                M 760 66 q -18 30 8 58 q 20 30 -10 54 q -22 28 8 50;
+                M 760 66 q 20 30 -4 58 q -24 30 8 54 q 26 28 -6 50"
+        dur="2.7s" repeatCount="indefinite"/>
     </path>
   </g>
-  <text x="40" y="136" fill="#9a8ca6" font-size="13">offensive security · tokyo 20区 · chaotic neutral</text>
 
   <!-- typing line -->
-  <text x="40" y="172" fill="#ff5f8f" font-size="14" font-weight="700">$ </text>
-  <text x="62" y="172" fill="#e6dde8" font-size="14">breaking systems to make them stronger
+  <text x="48" y="196" fill="#ff5f8f" font-size="14" font-weight="700">$ </text>
+  <text x="72" y="196" fill="#e6dde8" font-size="14">breaking systems to make them stronger
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="4s" repeatCount="indefinite"/>
   </text>
-  <line x1="40" y1="192" x2="820" y2="192" stroke="#2e2340" stroke-width="1"/>
+  <line x1="48" y1="216" x2="832" y2="216" stroke="#2e2340" stroke-width="1"/>
 
-  <!-- ======== IDENTITY ZONE (200..330) — левая колонка ======== -->
-  <text x="40" y="222" fill="#ff5f8f" font-size="14" font-weight="700">$ cat /etc/identity</text>
+  <!-- ============ ZONE 2: IDENTITY | CONTACT (230..420) ============ -->
+  <text x="48" y="250" fill="#ff5f8f" font-size="14" font-weight="700">$ cat /etc/identity</text>
   <g font-size="13.5">
-    <text x="40" y="256" fill="#e6dde8">handle    : aneksyy   <tspan fill="#5f5370"># 19 y.o.</tspan>
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.08;0.16;1" dur="7s" repeatCount="indefinite"/>
+    <text x="48" y="286" fill="#e6dde8">handle    : <tspan fill="#ffffff" font-weight="700">aneksyy</tspan>   <tspan fill="#5f5370"># 19 y.o.</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.06;0.14;1" dur="7s" repeatCount="indefinite"/>
     </text>
-    <text x="40" y="282" fill="#e6dde8">role      : security researcher · developer · bounty hunter
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2;0.28;1" dur="7s" repeatCount="indefinite"/>
+    <text x="48" y="316" fill="#e6dde8">role      : security researcher
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.16;0.24;1" dur="7s" repeatCount="indefinite"/>
     </text>
-    <text x="40" y="308" fill="#e6dde8">platform  : Standoff 365 Bug Bounty
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.32;0.4;1" dur="7s" repeatCount="indefinite"/>
+    <text x="48" y="346" fill="#e6dde8">            developer · bounty hunter
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.22;0.3;1" dur="7s" repeatCount="indefinite"/>
     </text>
-    <text x="40" y="334" fill="#e6dde8">alignment : chaotic neutral
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.44;0.52;1" dur="7s" repeatCount="indefinite"/>
+    <text x="48" y="376" fill="#e6dde8">platform  : Standoff 365 Bug Bounty
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.3;0.38;1" dur="7s" repeatCount="indefinite"/>
     </text>
-    <text x="40" y="360" fill="#e6dde8">hunger    : <tspan fill="#ff5f8f" font-weight="700">critical ☠</tspan>
-      <animate attributeName="opacity" values="0;0;1;1;1;0.7;1" keyTimes="0;0.56;0.64;0.78;0.86;0.9;1" dur="7s" repeatCount="indefinite"/>
+    <text x="48" y="406" fill="#e6dde8">alignment : chaotic neutral
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.38;0.46;1" dur="7s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <!-- ======== CONTACT ZONE — правая колонка ======== -->
-  <text x="560" y="222" fill="#ff5f8f" font-size="14" font-weight="700">$ ip link</text>
-  <g font-size="13.5" fill="#e6dde8">
-    <text x="560" y="256">site     : <tspan fill="#ff5f8f">filitlite.github.io/aneksyy</tspan>
+  <!-- контакт-карточка справа -->
+  <rect x="520" y="262" width="312" height="152" rx="8" fill="#130e18" stroke="#2e2340"/>
+  <rect x="520" y="262" width="3" height="152" fill="url(#acc)"/>
+  <text x="548" y="290" fill="#ff5f8f" font-size="13.5" font-weight="700">$ ip link</text>
+  <g font-size="13" fill="#e6dde8">
+    <text x="548" y="322">site     : <tspan fill="#ffd6e3">aneksyy-site</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.58;1" dur="7s" repeatCount="indefinite"/>
+    </text>
+    <text x="548" y="352">telegram  : <tspan fill="#ffffff">@aneksyy</tspan>
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.6;0.68;1" dur="7s" repeatCount="indefinite"/>
     </text>
-    <text x="560" y="282">telegram  : <tspan fill="#e6dde8">@aneksyy</tspan>
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.68;0.76;1" dur="7s" repeatCount="indefinite"/>
-    </text>
-    <text x="560" y="308">standoff  : <tspan fill="#e6dde8">profile/aneksyy</tspan>
-      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.76;0.84;1" dur="7s" repeatCount="indefinite"/>
+    <text x="548" y="382">standoff  : <tspan fill="#ffffff">profile/aneksyy</tspan>
+      <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.7;0.78;1" dur="7s" repeatCount="indefinite"/>
     </text>
   </g>
-  <!-- рамка контактов -->
-  <rect x="548" y="200" width="272" height="122" rx="6" fill="none" stroke="#2e2340"/>
 
-  <line x1="40" y1="392" x2="820" y2="392" stroke="#2e2340" stroke-width="1"/>
+  <line x1="48" y1="436" x2="832" y2="436" stroke="#2e2340" stroke-width="1"/>
 
-  <!-- ======== VECTORS ZONE (410..520) — chips на всю ширину ======== -->
-  <text x="40" y="420" fill="#ff5f8f" font-size="14" font-weight="700">$ scan --vectors</text>
+  <!-- ============ ZONE 3: VECTORS (450..600) ============ -->
+  <text x="48" y="466" fill="#ff5f8f" font-size="14" font-weight="700">$ scan --vectors</text>
   <g font-size="12.5" fill="#e6dde8">
-    <g opacity="0.9">
-      <rect x="40" y="436" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="52" y="453">XSS</text>
-      <rect x="112" y="436" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="128" y="453">SQLi</text>
-      <rect x="184" y="436" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="196" y="453">SSRF</text>
-      <rect x="256" y="436" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="274" y="453">IDOR</text>
-      <rect x="328" y="436" width="78" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="340" y="453">CSRF</text>
-      <rect x="414" y="436" width="112" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="426" y="453">Auth Bypass</text>
-      <rect x="534" y="436" width="152" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="546" y="453">Race Conditions</text>
-      <rect x="694" y="436" width="126" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="706" y="453">Business Logic</text>
+    <g>
+      <rect x="48" y="482" width="62" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="62" y="499">XSS</text>
+      <rect x="118" y="482" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="134" y="499">SQLi</text>
+      <rect x="190" y="482" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="202" y="499">SSRF</text>
+      <rect x="262" y="482" width="64" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="280" y="499">IDOR</text>
+      <rect x="334" y="482" width="76" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="346" y="499">CSRF</text>
+      <rect x="418" y="482" width="116" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="430" y="499">Auth Bypass</text>
+      <rect x="542" y="482" width="158" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="554" y="499">Race Conditions</text>
+      <rect x="708" y="482" width="124" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="720" y="499">Business Logic</text>
 
-      <rect x="40" y="470" width="152" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="52" y="487">Access Control</text>
-      <rect x="200" y="470" width="164" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="212" y="487">Info Disclosure</text>
-      <rect x="372" y="470" width="124" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="388" y="487">API Security</text>
-      <rect x="504" y="470" width="124" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
-      <text x="522" y="487">Web App Sec</text>
+      <rect x="48" y="516" width="154" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="60" y="533">Access Control</text>
+      <rect x="210" y="516" width="166" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="222" y="533">Info Disclosure</text>
+      <rect x="384" y="516" width="126" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="400" y="533">API Security</text>
+      <rect x="518" y="516" width="126" height="26" rx="5" fill="#1b1426" stroke="#2e2340"/>
+      <text x="536" y="533">Web App Sec</text>
 
       <!-- бегущий spotlight -->
-      <rect x="36" y="432" width="120" height="68" fill="none" stroke="#ff5f8f" stroke-width="1.4" opacity="0.55">
-        <animate attributeName="opacity" values="0;0.8;0" dur="2.4s" repeatCount="indefinite"/>
-        <animateTransform attributeName="transform" type="translate" values="0 0; 690 0; 0 0" dur="7s" repeatCount="indefinite"/>
+      <rect x="44" y="478" width="130" height="70" fill="none" stroke="#ff5f8f" stroke-width="1.3" opacity="0.5">
+        <animate attributeName="opacity" values="0;0.75;0" dur="2.6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0; 700 0; 0 0" dur="8s" repeatCount="indefinite"/>
       </rect>
     </g>
   </g>
 
-  <line x1="40" y1="516" x2="820" y2="516" stroke="#2e2340" stroke-width="1"/>
+  <line x1="48" y1="566" x2="832" y2="566" stroke="#2e2340" stroke-width="1"/>
 
-  <!-- ======== FOOTER (540..640) ======== -->
-  <text x="40" y="552" fill="#ff5f8f" font-size="14" font-weight="700">$ tail -f /var/log/hunger.log</text>
-  <text x="40" y="580" fill="#5f5370" font-size="12.5">coffee-driven development · 1000 − 7 · no patch for human</text>
-  <text x="40" y="608" fill="#9a8ca6" font-size="12.5">site: <tspan fill="#ffd6e3">filitlite.github.io/aneksyy</tspan></text>
-  <!-- мигающий курсор -->
-  <rect x="250" y="596" width="9" height="16" fill="#ff5f8f">
+  <!-- ============ ZONE 4: FOOTER (580..720) ============ -->
+  <text x="48" y="600" fill="#ff5f8f" font-size="14" font-weight="700">$ tail -f /var/log/hunger.log</text>
+  <text x="48" y="632" fill="#5f5370" font-size="12.5">coffee-driven development · 1000 − 7 · no patch for human</text>
+  <text x="48" y="664" fill="#9a8ca6" font-size="12.5">site: <tspan fill="#ffd6e3">filitlite.github.io/aneksyy</tspan></text>
+  <rect x="330" y="650" width="9" height="17" fill="#ff5f8f">
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="1.2s" repeatCount="indefinite"/>
   </rect>
-  <!-- sakura particle -->
-  <circle cx="800" cy="570" r="3" fill="#ff5f8f" opacity="0.7">
-    <animate attributeName="cy" values="530;610" dur="3.5s" repeatCount="indefinite"/>
+
+  <!-- sakura particles -->
+  <circle cx="812" cy="620" r="3" fill="#ff5f8f" opacity="0.7">
+    <animate attributeName="cy" values="590;690" dur="3.5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.8;0" dur="3.5s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="820" cy="540" r="2.4" fill="#ffd6e3" opacity="0.6">
-    <animate attributeName="cy" values="540;620" dur="4.2s" repeatCount="indefinite"/>
+  <circle cx="842" cy="600" r="2.4" fill="#ffd6e3" opacity="0.6">
+    <animate attributeName="cy" values="596;700" dur="4.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0;0.7;0" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="828" cy="660" r="2" fill="#ff5f8f" opacity="0.5">
+    <animate attributeName="cy" values="640;710" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.6;0" dur="5s" repeatCount="indefinite"/>
   </circle>
 </svg>
