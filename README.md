@@ -8,14 +8,6 @@
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/filitlite/aneksyy/output/github-contribution-grid-snake.svg" alt="snake eating contributions"/>
-
-</div>
-
----
-
-<div align="center">
-
 [![Website](https://img.shields.io/badge/site-filitlite.github.io%2Faneksyy-1b1426?style=for-the-badge&logo=googlechrome&logoColor=ff5f8f)](https://filitlite.github.io/aneksyy/)
 &nbsp;&nbsp;
 [![Telegram](https://img.shields.io/badge/@aneksyy-1b1426?style=for-the-badge&logo=telegram&logoColor=ff5f8f)](https://t.me/aneksyy)
