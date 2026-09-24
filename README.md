@@ -1,71 +1,47 @@
-<div align="center">
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:c93a68,50:ff5f8f,100:ffd6e3&height=180&section=header&text=%E5%96%B0&fontSize=100&fontColor=0b0810&animation=blinking&fontAlignY=46&stroke=ffffff&strokeWidth=1&desc=aneKSYY%20%E2%80%A2%20offensive%20security%20%E2%80%A2%20tokyo%2020%E5%8C%BA&descAlignY=82&descSize=15&descColor=ff5f8f"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&duration=2700&pause=900&color=FF5F8F&center=true&vCenter=true&repeat=false&width=780&height=64&lines=%24+nokill+-c+%22cat+%2Fetc%2Fidentity%22;%E2%94%80%E2%94%80%20on%20hunt%20since%202025%20%7C%20Standoff%20365;%E2%94%80%E2%94%80%20breaking%20systems%20to%20make%20them%20stronger" />
-
-<br/>
-
-<a href="https://filitlite.github.io/aneksyy/"><img src="https://img.shields.io/badge/%E2%99%AA_EDIT%3A%3AON-1b1426?style=for-the-badge&logo=cplusplus&logoColor=ff5f8f"/></a>
-&nbsp;
-<img src="https://img.shields.io/badge/hunger-%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91-1b1426?style=for-the-badge&labelColor=1b1426"/>
-&nbsp;
-<img src="https://komarev.com/ghpvc/?username=filitlite&style=for-the-badge&color=1b1426&label=%E5%96%B0-views"/>
-
-</div>
-
-<br/>
+# aneksyy · 喰
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%24-whoami-2e2340?style=flat-square&labelColor=2e2340"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=blade&color=0:c93a68,50:ff5f8f,100:ffd6e3&height=170&section=header&text=aneKSYY&fontSize=62&fontColor=ffffff&animation=blinking&fontAlignY=46&desc=%E5%96%B0%E7%A8%AE%20offensive%20security%20%E2%80%A2%20bug%20bounty%20%E2%80%A2%20tokyo%2020%E5%8C%BA&descAlignY=74&descSize=14&descColor=ffd6e3"/>
+
+<br/>
+
+![terminal](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2800&pause=900&color=FF5F8F&center=true&vCenter=true&repeat=false&width=760&height=64&lines=%24%20nokill%20-c%20%22cat%20%2Fetc%2Fidentity%22;%E2%94%80%E2%94%80%20on%20hunt%20since%202025%20%E2%94%82%20Standoff%20365;%E2%94%80%E2%94%80%20breaking%20systems%20to%20make%20them%20stronger)
+
+<br/>
+
+<a href="https://filitlite.github.io/aneksyy/"><img src="https://img.shields.io/badge/%E2%99%AA_EDIT%3A%3AON-1b1426?style=flat-square&labelColor=1b1426&color=ff5f8f"/></a>
+<img src="https://komarev.com/ghpvc/?username=filitlite&style=flat-square&color=1b1426&label=%E5%96%B0-views"/>
 
 </div>
+
+### `$ cat /etc/identity`
 
 ```bash
-$ cat /etc/identity
 handle    : aneksyy          # 19 y.o.
 role      : security researcher · software developer · bug bounty hunter
 platform  : Standoff 365 Bug Bounty
 alignment : chaotic neutral
-hunger    : critical ☠          # coffee-driven
+hunger    : critical ☠      # coffee-driven
 motto     : breaking systems to make them stronger
 site      : https://filitlite.github.io/aneksyy/
 ```
 
-<br/>
+### `$ scan --vectors`
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/%24-scan-2e2340?style=flat-square&labelColor=2e2340"/>
-
-</div>
-
-<div align="center">
-
-| vector | vector | vector | vector |
+| | | | |
 |:---:|:---:|:---:|:---:|
-| `XSS` | `SQLi` | `SSRF` | `IDOR` |
-| `CSRF` | `Auth Bypass` | `Race Conditions` | `Business Logic` |
-| `Access Control` | `Info Disclosure` | `API Security` | `Web App Sec` |
+| **XSS** | **SQLi** | **SSRF** | **IDOR** |
+| **CSRF** | **Auth Bypass** | **Race Conditions** | **Business Logic** |
+| **Access Control** | **Info Disclosure** | **API Security** | **Web App Sec** |
 
-</div>
-
-<br/>
+### `$ arsenal --web`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%24-arsenal--web-2e2340?style=flat-square&labelColor=2e2340"/>
-
-</div>
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-1b1426?style=for-the-badge&logo=python&logoColor=ff5f8f)
+![Python](https://img.shields.io/badge/Python-1b1426?style=for-the-badge&logo=python&logoColor=ff5f8f&label=lang)
 ![C++](https://img.shields.io/badge/C%2B%2B-1b1426?style=for-the-badge&logo=cplusplus&logoColor=ff5f8f)
-![C%23](https://img.shields.io/badge/C%23-1b1426?style=for-the-badge&logo=csharp&logoColor=ff5f8f)
+![CSharp](https://img.shields.io/badge/C_Sharp-1b1426?style=for-the-badge&logo=csharp&logoColor=ff5f8f)
 ![JavaScript](https://img.shields.io/badge/JavaScript-1b1426?style=for-the-badge&logo=javascript&logoColor=ff5f8f)
 ![HTML5](https://img.shields.io/badge/HTML5-1b1426?style=for-the-badge&logo=html5&logoColor=ff5f8f)
 ![CSS3](https://img.shields.io/badge/CSS3-1b1426?style=for-the-badge&logo=css3&logoColor=ff5f8f)
@@ -79,13 +55,7 @@ site      : https://filitlite.github.io/aneksyy/
 
 </div>
 
-<br/>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/%24-stats--web-2e2340?style=flat-square&labelColor=2e2340"/>
-
-</div>
+### `$ stats --web`
 
 <div align="center">
 
@@ -96,19 +66,17 @@ site      : https://filitlite.github.io/aneksyy/
 
 <img width="60%" src="https://streak-stats.demolab.com?user=filitlite&theme=dark&background=1b1426&border=ff5f8f&stroke=ff5f8f&ring=ff5f8f&fire=ff5f8f&currStreakLabel=ff5f8f&sideLabels=ff5f8f&currStreakNum=e6dde8&sideNums=e6dde8&dates=5f5370" />
 
-<br/>
+</div>
+
+### `$ history | tail -30`
+
+<div align="center">
 
 <img width="100%" src="https://ghchart.rshah.org/ff5f8f/filitlite" alt="contribution chart"/>
 
 </div>
 
-<br/>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/%24-ip_link_show-2e2340?style=flat-square&labelColor=2e2340"/>
-
-</div>
+### `$ ip link show`
 
 <div align="center">
 
@@ -124,6 +92,6 @@ site      : https://filitlite.github.io/aneksyy/
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:ff5f8f,50:c93a68,100:1b1426&height=110&section=footer&text=%E5%96%B0-0-%20no%20patch%20for%20human&fontSize=18&fontColor=ffffff&fontAlignY=68"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=blade&color=0:ff5f8f,50:c93a68,100:1b1426&height=90&section=footer&text=%E5%96%B0-0-%20no%20patch%20for%20human&fontSize=17&fontColor=ffffff&fontAlignY=64"/>
 
 </div>
